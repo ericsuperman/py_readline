@@ -2,7 +2,7 @@
 
 import sys
 
-def oneline(line)
+def oneline(line):
     print(line)
 
 print ('Number of arguments:', len(sys.argv), 'arguments.')

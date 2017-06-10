@@ -2,6 +2,9 @@
 
 import sys
 
+def oneline(line)
+    print(line)
+
 print ('Number of arguments:', len(sys.argv), 'arguments.')
 print ('Argument List:', str(sys.argv))
 if len(sys.argv) != 2:
@@ -10,7 +13,7 @@ if len(sys.argv) != 2:
 
 with open(sys.argv[1]) as f:
     for line in f:
-        print(line) 
+        oneline(line) 
 
 f.close()
 
